@@ -12,3 +12,5 @@ This is a Python script which is an automated XSS (Cross-Site Scripting) scanner
 
 `./install.sh`
 
+`python3 xss-validater.py `
+
