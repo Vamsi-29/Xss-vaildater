@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "[+] Updating package list..."
-sudo apt update -y
 
 echo "[+] Installing Python3 and pip..."
 sudo apt install -y python3 python3-pip
