@@ -4,7 +4,7 @@ This is a Python script which is an automated XSS (Cross-Site Scripting) scanner
 
 
 
-`git clone https://github.com/Vamsi-29/Vulnerability-scanner `
+`git clone https://github.com/Vamsi-29/Xss-vaildater.git`
 
 `chmod +x install.sh`                                                                       
 
