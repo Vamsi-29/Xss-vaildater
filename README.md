@@ -6,6 +6,8 @@ This is a Python script which is an automated XSS (Cross-Site Scripting) scanner
 
 `git clone https://github.com/Vamsi-29/Xss-vaildater.git`
 
+`cd Xss-vaildater/ `
+
 `chmod +x install.sh`                                                                       
 
 `./install.sh`
