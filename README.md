@@ -15,9 +15,12 @@ This is a Python script which is an automated XSS (Cross-Site Scripting) scanner
 `python3 xss-validater.py `
 
 ##Limitations
+
   *Only works with the links 
+  
   *Targets must be in valid syntax
   (ex :https://xss-game.appspot.com/level1/frame?query=)
+  
   *Still some minor issues with install.sh,updates will come soon ✌️
 
 
