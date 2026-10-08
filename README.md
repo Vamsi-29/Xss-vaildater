@@ -38,6 +38,16 @@ Run the scanner:
 python3 xss-validater.py
 ```
 
+## Validation workflow
+
+The scanner uses a two-stage check before reporting confirmed XSS:
+
+1. Send the candidate payload and check whether it is reflected in the HTTP response.
+2. Load the same URL in Selenium and check for JavaScript execution through a browser alert.
+3. Stop the concurrent scan when a payload is confirmed.
+
+The payload workload is processed with a bounded thread pool (`max_workers=5`) to keep concurrent requests limited.
+
 ## Current limitations
 
 - Designed around URL parameters that accept injected input.
